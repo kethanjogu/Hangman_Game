@@ -1,18 +1,77 @@
 # Hangman Game in ReactJS Guide
 
-## Open the Project
-1. Open the project folder in your VS Code.
+An interactive Hangman Game built with React.js. This modern take on the classic word-guessing game runs entirely in the browser and provides a fun and responsive UI.
 
-## Run the Project
-1. Open the terminal by pressing `Ctrl + J` and run the following commands:
-    `npm install` This command will install the necessary dependencies.
-    `npm run dev` This command will start the local development server.
+🌟 Features
+✅ Built with React functional components and hooks
 
-Click on the `localhost` link that appears in the terminal to open the project in your browser and check its functionality.
+🎲 Random word selection on each play
 
-If you get an error or get stuck, feel free to message me on Buy Me a Coffee.
-[Buy Me A Coffee](https://www.buymeacoffee.com/codingnepal)
+❤️ Limited number of lives with visual feedback
 
----
+✍️ Tracks and displays correct and incorrect guesses
 
-Happy coding!
+🔁 Option to restart the game
+
+🎨 Clean and responsive UI
+
+
+🚀 Getting Started
+Prerequisites
+Make sure you have the following installed:
+
+Node.js (v14 or later)
+
+npm or yarn
+
+Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/kethanjogu/Hangman_Game.git
+cd Hangman_Game
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+# or
+yarn start
+Open your browser and go to http://localhost:3000
+
+🛠️ Customization
+You can update the word list in src/constants/words.js (or wherever the word array is defined).
+
+Style the game using styles.css or integrate with Tailwind, Sass, or any other CSS framework.
+
+Add extra features like:
+
+Score tracking
+
+Hangman animation
+
+Difficulty levels
+
+🤝 Contributing
+Have suggestions or want to add a new feature? Feel free to fork this repo, create a new branch, and submit a pull request!
+
+bash
+Copy
+Edit
+git checkout -b feature/YourFeature
+git commit -m "Add YourFeature"
+git push origin feature/YourFeature
+📄 License
+This project is licensed under the MIT License.
+
